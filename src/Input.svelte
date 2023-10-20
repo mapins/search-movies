@@ -29,7 +29,7 @@ value={value}
 on:input={handleInput}
 />
 
-//Esto es un renderizdo condicional, como sabemos que los valores que van a ir cambiando creamos esto.
+<!--  Esto es un renderizdo condicional, como sabemos que los valores que van a ir cambiando creamos esto.-->
 
 {#if loading}
     <strong>Loading...</strong>

@@ -652,7 +652,7 @@ var app = (function () {
     		c: function create() {
     			strong = element("strong");
     			strong.textContent = "No hay resultados";
-    			add_location(strong, file$1, 39, 8, 1301);
+    			add_location(strong, file$1, 39, 8, 1308);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, strong, anchor);
@@ -688,7 +688,7 @@ var app = (function () {
     			t0 = text("enemos $");
     			t1 = text(t1_value);
     			t2 = text(" peliculas");
-    			add_location(strong, file$1, 37, 8, 1228);
+    			add_location(strong, file$1, 37, 8, 1235);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, strong, anchor);
@@ -723,7 +723,7 @@ var app = (function () {
     		c: function create() {
     			strong = element("strong");
     			strong.textContent = "Loading...";
-    			add_location(strong, file$1, 34, 4, 1155);
+    			add_location(strong, file$1, 34, 4, 1162);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, strong, anchor);
@@ -764,7 +764,7 @@ var app = (function () {
     	const block = {
     		c: function create() {
     			input = element("input");
-    			t = text("\n\n//Esto es un renderizdo condicional, como sabemos que los valores que van a ir cambiando creamos esto.\n\n");
+    			t = space();
     			if_block.c();
     			if_block_anchor = empty();
     			attr_dev(input, "placeholder", "Search movies");
